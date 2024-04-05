@@ -14,16 +14,10 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ╔════◇
-║ *『 WAOW YOU CHOOSE SUHAIL-MD 』*
+║ *THANKS FOR CHOSESING SYAM SIR MD』*
 ║ _You complete first step to making Bot._
 ╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║ *Ytube:* _youtube.com/SuhailTechInfo_
-║ *Owner:* _https://wa.me/923184474176_
-║ *Note :*_Don't provide your SESSION_ID to_
-║ _anyone otherwise that can access chats_
-╚════════════════════════╝
+ᴅᴏɴᴛ ꜱʜᴀʀᴇ ꜱᴇɴꜱɪᴏɴ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ/🌚🤍
 `
 
 
@@ -94,16 +88,16 @@ SESSION-ID ==> ${Scan_Id}
             // console.log("Reason : ",DisconnectReason[reason])
             if (reason === DisconnectReason.connectionClosed) {
               console.log("Connection closed!")
-             // SUHAIL().catch(err => console.log(err));
+             // THANTHONNI().catch(err => console.log(err));
             } else if (reason === DisconnectReason.connectionLost) {
                 console.log("Connection Lost from Server!")
-            //  SUHAIL().catch(err => console.log(err));
+            //  THANTHONNI().catch(err => console.log(err));
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...")
-              SUHAIL().catch(err => console.log(err));
+              THANTHONNI().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
-             // SUHAIL().catch(err => console.log(err));
+             // THANTHONNI().catch(err => console.log(err));
             }  else {
                 console.log('Connection closed with bot. Please run again.');
                 console.log(reason)
@@ -127,7 +121,7 @@ SESSION-ID ==> ${Scan_Id}
 
 
 
-  SUHAIL().catch(async(err) => {
+  THANTHONNI().catch(async(err) => {
     console.log(err)
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
